@@ -27,4 +27,4 @@ if (etaUtente < 18) {
 
 // Stampa del risultato
 
-document.getElementById("prezzo-biglietto").innerHTML = "Il prezzo del biglietto è " + (costoBiglietto - scontoBiglietto).toFixed(2) + " euro.";
+document.getElementById("prezzo-biglietto").innerHTML = "Il prezzo del biglietto è " + scontoBiglietto.toFixed(2) + " euro.";
